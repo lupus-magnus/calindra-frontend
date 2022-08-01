@@ -1,4 +1,5 @@
 import { Brand } from "../Brand";
+
 import * as S from "./styles";
 
 export const Navbar = () => {
