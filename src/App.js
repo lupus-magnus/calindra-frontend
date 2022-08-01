@@ -1,10 +1,11 @@
-// import logo from './logo.svg';
-// import './App.css';
+import { Navbar } from "./components";
+import { GlobalStyle } from "./styles";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <GlobalStyle />
+      <Navbar />
     </div>
   );
 }
