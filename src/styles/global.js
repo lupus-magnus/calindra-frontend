@@ -50,6 +50,9 @@ table {
 	border-spacing: 0;
 }
 
+body {
+	font-family: 'Roboto Condensed', sans-serif;;
+}
 `;
 
 export default GlobalStyle;
