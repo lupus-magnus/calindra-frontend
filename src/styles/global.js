@@ -51,7 +51,8 @@ table {
 }
 
 body {
-	font-family: 'Roboto Condensed', sans-serif;;
+	font-family: 'Roboto Condensed', sans-serif;
+	background-color: #E9E9E9;
 }
 `;
 
