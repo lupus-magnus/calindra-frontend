@@ -1,6 +1,6 @@
 import { ThemeProvider } from "styled-components";
 
-import { FirstSection, Navbar, SecondSection } from "./components";
+import { FirstSection, Footer, Navbar, SecondSection } from "./components";
 
 import { GlobalStyle, theme } from "./styles";
 
@@ -13,6 +13,7 @@ function App() {
         <FirstSection />
         <SecondSection />
       </main>
+      <Footer />
     </ThemeProvider>
   );
 }

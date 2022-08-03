@@ -44,6 +44,7 @@ export const Menu = styled.nav`
   position: absolute;
   left: -24px;
   top: 44px;
+  z-index: 1;
 
   width: 100vw;
   background-color: ${({ theme }) => theme.colors.white};
