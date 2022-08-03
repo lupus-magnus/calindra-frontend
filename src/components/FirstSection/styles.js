@@ -21,9 +21,12 @@ export const Header = styled.h1`
   line-height: 96px;
   color: ${({ theme }) => theme.colors.heavyGray};
 
-  @media (max-width: 1024px) {
+  @media (max-width: 768px) {
     font-size: 52px;
     line-height: 62px;
+  }
+
+  @media (max-width: 1024px) {
     margin-top: 80px;
   }
 `;

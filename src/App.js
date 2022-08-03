@@ -1,6 +1,6 @@
 import { ThemeProvider } from "styled-components";
 
-import { FirstSection, Navbar } from "./components";
+import { FirstSection, Navbar, SecondSection } from "./components";
 
 import { GlobalStyle, theme } from "./styles";
 
@@ -9,7 +9,10 @@ function App() {
     <ThemeProvider theme={theme}>
       <GlobalStyle />
       <Navbar />
-      <FirstSection />
+      <main>
+        <FirstSection />
+        <SecondSection />
+      </main>
     </ThemeProvider>
   );
 }
