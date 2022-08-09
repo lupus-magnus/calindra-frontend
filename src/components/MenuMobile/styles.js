@@ -1,15 +1,5 @@
-import styled, { keyframes } from "styled-components";
-
-const slideIn = keyframes`
-    from {
-        opacity: 0;
-        transform: translate(-1000px);
-    }
-    to {
-        opacity: 1;
-        transform: translate(0);
-    }
-`;
+import { motion } from "framer-motion";
+import styled from "styled-components";
 
 export const MenuContainer = styled.div`
   position: absolute;
@@ -40,7 +30,7 @@ export const MenuButton = styled.button`
   }
 `;
 
-export const Menu = styled.nav`
+export const Menu = styled(motion.nav)`
   position: absolute;
   left: -24px;
   top: 44px;
@@ -48,8 +38,6 @@ export const Menu = styled.nav`
 
   width: 100vw;
   background-color: ${({ theme }) => theme.colors.white};
-
-  animation: ${slideIn} 300ms;
 `;
 
 export const NavListItem = styled.li`

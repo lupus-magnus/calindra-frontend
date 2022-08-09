@@ -5,7 +5,15 @@ import * as S from "./styles";
 
 export const Navbar = () => {
   return (
-    <S.NavbarContainer>
+    <S.NavbarContainer
+      initial={{
+        opacity: 0,
+      }}
+      animate={{
+        opacity: 1,
+      }}
+      transition={{ delay: 3, duration: 1, ease: "easeInOut" }}
+    >
       <MenuMobile />
       <Brand />
       <S.NavDesktop>
