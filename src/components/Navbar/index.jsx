@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import { Brand } from "../Brand";
 import { MenuMobile } from "../MenuMobile";
 
