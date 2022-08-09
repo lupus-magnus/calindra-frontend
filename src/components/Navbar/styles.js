@@ -1,9 +1,9 @@
+import { motion } from "framer-motion";
 import styled from "styled-components";
 
-export const NavbarContainer = styled.header`
+export const NavbarContainer = styled(motion.header)`
   background-color: ${({ theme }) => theme.colors.white};
   color: ${({ theme }) => theme.colors.golden};
-  position: relative;
 
   height: 110px;
   padding: 0 64px;

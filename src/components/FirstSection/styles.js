@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import styled from "styled-components";
 
 export const Container = styled.div`
@@ -16,7 +17,7 @@ export const Container = styled.div`
   }
 `;
 
-export const Header = styled.h2`
+export const Header = styled(motion.h2)`
   font-size: 80px;
   font-weight: 700;
   line-height: 96px;
@@ -36,7 +37,7 @@ export const HeaderNewLine = styled.span`
   display: block;
 `;
 
-export const Image = styled.img`
+export const Image = styled(motion.img)`
   display: block;
   max-width: 100%;
   height: auto;

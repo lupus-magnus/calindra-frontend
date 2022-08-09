@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
 export const Container = styled.div`
   position: relative;
@@ -14,7 +15,7 @@ export const Container = styled.div`
   }
 `;
 
-export const TextContainer = styled.div`
+export const TextContainer = styled(motion.div)`
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -58,7 +59,7 @@ export const Paragraph = styled.p`
   }
 `;
 
-export const Image = styled.img`
+export const Image = styled(motion.img)`
   max-width: 100%;
   height: auto;
   position: absolute;
