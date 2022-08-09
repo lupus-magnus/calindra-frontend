@@ -9,9 +9,17 @@ export const Navbar = () => {
       <MenuMobile />
       <Brand />
       <S.NavDesktop>
-        <S.NavLink>About</S.NavLink>
-        <S.NavLink>Models</S.NavLink>
-        <S.NavLink>Guarantee</S.NavLink>
+        <S.NavLinksList>
+          <S.NavListItem>
+            <S.NavLink>About</S.NavLink>
+          </S.NavListItem>
+          <S.NavListItem>
+            <S.NavLink>Models</S.NavLink>
+          </S.NavListItem>
+          <S.NavListItem>
+            <S.NavLink>Guarantee</S.NavLink>
+          </S.NavListItem>
+        </S.NavLinksList>
       </S.NavDesktop>
     </S.NavbarContainer>
   );

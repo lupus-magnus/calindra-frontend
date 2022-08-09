@@ -13,24 +13,26 @@ export const BrandLogo = styled.img`
   }
 `;
 
-export const BrandTitle = styled.span`
-  display: inline-block;
+export const BrandTitle = styled.h1`
   font-size: 41.2px;
   font-weight: 700;
   line-height: 48px;
+  text-align: center;
 `;
 
 export const BrandSubtitle = styled.span`
-  display: inline-block;
-  letter-spacing: 5.4px;
+  display: block;
   font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 5.4px;
+  line-height: 16px;
+`;
+
+export const RemoveSpacing = styled.span`
+  letter-spacing: 0;
 `;
 
 export const TextContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
   @media (max-width: 1024px) {
     display: none;
   }

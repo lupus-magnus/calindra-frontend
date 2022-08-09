@@ -31,7 +31,7 @@ export const FooterSection = styled.section`
   }
 `;
 
-export const Header = styled.h3`
+export const Header = styled.h4`
   font-weight: 700;
   font-size: 28px;
   line-height: 32px;
