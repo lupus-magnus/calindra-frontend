@@ -20,7 +20,10 @@ export const NavbarContainer = styled.header`
 
 export const NavDesktop = styled.nav`
   height: 100%;
+`;
 
+export const NavLinksList = styled.ul`
+  height: 100%;
   display: flex;
   align-items: center;
 
@@ -31,7 +34,7 @@ export const NavDesktop = styled.nav`
   }
 `;
 
-export const NavLink = styled.a`
+export const NavListItem = styled.li`
   height: 100%;
   display: flex;
   align-items: center;
@@ -47,4 +50,11 @@ export const NavLink = styled.a`
     cursor: pointer;
     border-bottom: 3px solid ${({ theme }) => theme.colors.golden};
   }
+`;
+
+export const NavLink = styled.a`
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
 `;
