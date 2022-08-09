@@ -16,7 +16,7 @@ export const Container = styled.div`
   }
 `;
 
-export const Header = styled.h1`
+export const Header = styled.h2`
   font-size: 80px;
   font-weight: 700;
   line-height: 96px;

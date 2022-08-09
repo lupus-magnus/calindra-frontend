@@ -5,8 +5,12 @@ export const Brand = () => {
     <S.Brand>
       <S.BrandLogo src="/assets/logo.svg" alt="Zutterman's logo" />
       <S.TextContainer>
-        <S.BrandTitle>zutterman</S.BrandTitle>
-        <S.BrandSubtitle>Measure Tapes</S.BrandSubtitle>
+        <S.BrandTitle>
+          zutterman
+          <S.BrandSubtitle>
+            Measure Tape<S.RemoveSpacing>s</S.RemoveSpacing>
+          </S.BrandSubtitle>
+        </S.BrandTitle>
       </S.TextContainer>
     </S.Brand>
   );

@@ -29,7 +29,7 @@ export const TextContainer = styled.div`
   }
 `;
 
-export const Header = styled.h2`
+export const Header = styled.h3`
   font-size: 68px;
   font-weight: 700;
   line-height: 96px;
