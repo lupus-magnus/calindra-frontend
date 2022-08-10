@@ -1,5 +1,3 @@
-https://zutterman-tapes.vercel.app/
-
 <h1 align="center">Zutterman | Measure Tapes</h1>
 <h1 align="center">
 <img src="https://img.shields.io/static/v1?label=JavaScript&message=language&color=green&style=for-the-badge&logo=javascript"/>
@@ -9,68 +7,66 @@ https://zutterman-tapes.vercel.app/
 </h1>
 
 <h2 align="center" >
-<img src="https://i.pinimg.com/originals/57/99/c7/5799c7857a2b5bf4a5aa500923d051a2.gif" width="600" />
+<img src="https://user-images.githubusercontent.com/71194923/183795087-99719746-82cd-4bcc-9c09-add2ecee8e3e.png" width="600" />
 </h2>
 <hr />
 
 ##### Synopsis:
 
-Ever wondered how far away you are from your friends or even that amazing japanese restaurant you want to visit? Ever had to decide who was the most suitable person for that last moment trip to the market? Well, no more. With Closer, you can rest assure that all that information is merely one click and one address away.
-
-The closer the better!
+Zutterman is the finest manufacturer of measure tapes. High standards on measuring, quality and tradition since 1882. 
+Trust the numbers.
 
 ##### Description:
 
-Closer is a project developed in TypeScript, in the Node + Express ecosystem. Through a RESTful API, it receives three or more addresses and proceeds to process them, calculating the distances between each one. It returns you a list of the distances between each pair of locations, and also the closest and farthest pair.
+Zutterman is a frontend project developed in the ReactJS ecosystem. It uses a CSS-in-JS approach through styled-components and framer-motion for its smooth animations. 
 
 <br><br>
 
 ##### Want to check it out by yourself?
 
 <h2 align="center" >
-<a href="https://closer-geocoding.herokuapp.com/"><img src="https://media.indiedb.com/images/articles/1/159/158317/auto/20140509082052-Button_play.png" height="64" />
+<a href="https://zutterman-tapes.vercel.app/"><img src="https://media.indiedb.com/images/articles/1/159/158317/auto/20140509082052-Button_play.png" height="64" />
 </h2></a>
 <hr />
 
+
 ### 🧠 Project Responsabilities:
 
-- [x] Connect with an external service through an API
-- [x] Receive three addresses and get their coordinates
-- [x] Calculate the distance between each pair of addresses
-- [x] Highlight both the nearest and farthest distances in the array
-- [x] Assure code quality and maintenability through unit tests coverage.
+- [x] Replicate the design given in [Figma](https://www.figma.com/file/GTEyrXtVtgSDeiocLk7KzCFf/layout-teste-avaliacao?node-id=0%3A76).
+- [x] Utilize semantic HTML for the page structure
+- [x] Assure a responsive experience for different screen sizes
+
 
 ### 🔥 The Extra Mile:
 
-- [x] Configure project from scratch with TypeScript
-- [x] Use the MVC model for maintaining good code practices
-- [x] Configure .env for using a restrict API, without exposing sensible data
-- [x] Documenting the application through Swagger
-- [x] Deploying the application to Heroku for a smoother testing experience
+- [x] OG Meta Tags for good looking previews
+- [x] Implementation of animations for enhancing the experience
+- [x] Standardization of icon usage
+
 
 ### 🧰 Technologies:
 
-- TypeScript
-- NodeJS
-- ExpressJS
-- Google Geocoding API
-- Axios
-- Jest
-
-### 🎯 Endpoints:
-
-- GET /distances: Receives the query param "addresses", which is a string of addresses separated by ';'. It then returns a list of the distances between those addresses, as well as the farthest and nearest ones.
+- HTML
+- CSS
+- JavaScript
+- ReactJS
+- Styled-Components
+- Framer-Motion
 
 ### 💻 How to use it:
 
-For running this project, you will need to have Node installed and a valid Google API key for using their Geocoding API.
 
-For the project to connect with the geocoding API, you will need to have a `.env` file with the following line:
+1. Clone the project: 
 
-```
-API_KEY=<your_google_api_key_here>
-```
+`git clone git@github.com:lupus-magnus/calindra-frontend.git`
 
-After that, you're all set. Run `yarn` for installing the dependencies and `yarn dev` for running the project. For running the tests, a simple `yarn test` will do the trick as well.
 
-Good hacking! 👊 🔥
+2. Install its dependencies from the root project's folder: 
+
+`cd calindra-frontend && npm install`
+
+3. Run it!
+
+`npm start`
+
+That should be it. Good hacking! 👊 🔥
