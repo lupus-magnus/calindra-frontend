@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+https://zutterman-tapes.vercel.app/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">Zutterman | Measure Tapes</h1>
+<h1 align="center">
+<img src="https://img.shields.io/static/v1?label=JavaScript&message=language&color=green&style=for-the-badge&logo=javascript"/>
+<img src="https://img.shields.io/static/v1?label=Express&message=framework&color=blue&style=for-the-badge&logo=express"/>
+<img src="https://img.shields.io/static/v1?label=Jest&message=unit+tests&color=blue&style=for-the-badge&logo=jest"/>
 
-## Available Scripts
+</h1>
 
-In the project directory, you can run:
+<h2 align="center" >
+<img src="https://i.pinimg.com/originals/57/99/c7/5799c7857a2b5bf4a5aa500923d051a2.gif" width="600" />
+</h2>
+<hr />
 
-### `npm start`
+##### Synopsis:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Ever wondered how far away you are from your friends or even that amazing japanese restaurant you want to visit? Ever had to decide who was the most suitable person for that last moment trip to the market? Well, no more. With Closer, you can rest assure that all that information is merely one click and one address away.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The closer the better!
 
-### `npm test`
+##### Description:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Closer is a project developed in TypeScript, in the Node + Express ecosystem. Through a RESTful API, it receives three or more addresses and proceeds to process them, calculating the distances between each one. It returns you a list of the distances between each pair of locations, and also the closest and farthest pair.
 
-### `npm run build`
+<br><br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+##### Want to check it out by yourself?
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<h2 align="center" >
+<a href="https://closer-geocoding.herokuapp.com/"><img src="https://media.indiedb.com/images/articles/1/159/158317/auto/20140509082052-Button_play.png" height="64" />
+</h2></a>
+<hr />
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🧠 Project Responsabilities:
 
-### `npm run eject`
+- [x] Connect with an external service through an API
+- [x] Receive three addresses and get their coordinates
+- [x] Calculate the distance between each pair of addresses
+- [x] Highlight both the nearest and farthest distances in the array
+- [x] Assure code quality and maintenability through unit tests coverage.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 🔥 The Extra Mile:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [x] Configure project from scratch with TypeScript
+- [x] Use the MVC model for maintaining good code practices
+- [x] Configure .env for using a restrict API, without exposing sensible data
+- [x] Documenting the application through Swagger
+- [x] Deploying the application to Heroku for a smoother testing experience
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 🧰 Technologies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- TypeScript
+- NodeJS
+- ExpressJS
+- Google Geocoding API
+- Axios
+- Jest
 
-## Learn More
+### 🎯 Endpoints:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- GET /distances: Receives the query param "addresses", which is a string of addresses separated by ';'. It then returns a list of the distances between those addresses, as well as the farthest and nearest ones.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 💻 How to use it:
 
-### Code Splitting
+For running this project, you will need to have Node installed and a valid Google API key for using their Geocoding API.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+For the project to connect with the geocoding API, you will need to have a `.env` file with the following line:
 
-### Analyzing the Bundle Size
+```
+API_KEY=<your_google_api_key_here>
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+After that, you're all set. Run `yarn` for installing the dependencies and `yarn dev` for running the project. For running the tests, a simple `yarn test` will do the trick as well.
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Good hacking! 👊 🔥
