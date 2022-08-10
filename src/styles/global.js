@@ -60,9 +60,6 @@ body {
 	background-color: #E9E9E9;
 }
 
-*{
-	overflow-x: hidden;
-}
 `;
 
 export default GlobalStyle;
