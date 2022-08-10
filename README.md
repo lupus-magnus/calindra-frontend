@@ -1,8 +1,8 @@
 <h1 align="center">Zutterman | Measure Tapes</h1>
 <h1 align="center">
 <img src="https://img.shields.io/static/v1?label=JavaScript&message=language&color=green&style=for-the-badge&logo=javascript"/>
-<img src="https://img.shields.io/static/v1?label=Express&message=framework&color=blue&style=for-the-badge&logo=express"/>
-<img src="https://img.shields.io/static/v1?label=Jest&message=unit+tests&color=blue&style=for-the-badge&logo=jest"/>
+<img src="https://img.shields.io/static/v1?label=React&message=framework&color=blue&style=for-the-badge&logo=react"/>
+<img src="https://img.shields.io/static/v1?label=Styled-Components&message=styles&color=blue&style=for-the-badge&logo=styledcomponents"/>
 
 </h1>
 
