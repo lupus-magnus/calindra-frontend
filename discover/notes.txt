@@ -1,6 +1,0 @@
-Desafio: https://www.figma.com/file/GTEyrXtVtgSDeiocLk7KzCFf/layout-teste-avaliacao
-
-Para testar nas ultra-wide: https://www.creativebloq.com/features/7-great-tools-for-testing-your-responsive-web-designs
-Animações de texto: 
-- Demo: https://kalkson.github.io/react-animated-text-content-demo/ 
-- Lib: https://www.npmjs.com/package/react-animated-text-content

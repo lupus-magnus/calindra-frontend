@@ -11,7 +11,6 @@ export const MenuMobile = () => {
         isOpen={isOpen}
         onClick={() => {
           setIsOpen((prev) => !prev);
-          console.log(isOpen);
         }}
       >
         <img src="/assets/menu.svg" alt="navigation menu" />
